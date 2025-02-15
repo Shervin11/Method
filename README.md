@@ -41,7 +41,7 @@ let newText = text.replace("люблю", "обожаю");
 console.log(newText); // "Я обожаю JavaScript"
 ```
 
-![metod-privedeniya-pervoj-bukvy-stroki-v-zaglavnuyu-javascript](https://github.com/user-attachments/assets/88998954-4bbd-4235-824b-2774754da4cd)
+![scale_1200](https://github.com/user-attachments/assets/27f9a052-163c-4912-ba85-38b6abcffc2a)
 
 
 ###  6️⃣ _slice_: извлекает часть строки от start до end (не включая end).
