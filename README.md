@@ -67,7 +67,7 @@ let lowerText = text.toLowerCase();
 console.log(lowerText); // "привет, мир!"
 ```
 
-###  9) _toUpperCase()_: преобразует все символы строки в верхний регистр.
+###  9️⃣ _toUpperCase()_: преобразует все символы строки в верхний регистр.
 ```Javascript
 let text = "ПрИвЕт, МиР!";
 let upperText = text.toUpperCase();
