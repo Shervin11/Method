@@ -47,3 +47,24 @@ let text = "яблоко,банан,вишня";
 let fruits = text.split(",");
 console.log(fruits); // ["яблоко", "банан", "вишня"]
 ```
+
+###  8) toLowerCase(): преобразует все символы строки в нижний регистр.
+```Javascript
+let text = "ПрИвЕт, МиР!";
+let lowerText = text.toLowerCase();
+console.log(lowerText); // "привет, мир!"
+```
+
+###  9) toUpperCase(): преобразует все символы строки в верхний регистр.
+```Javascript
+let text = "ПрИвЕт, МиР!";
+let upperText = text.toUpperCase();
+console.log(upperText); // "ПРИВЕТ, МИР!"
+```
+
+###  10) trim(): удаляет пробелы с начала и конца строки.
+```Javascript
+let text = "  Привет, мир!  ";
+let trimmedText = text.trim();
+console.log(trimmedText); // "Привет, мир!"
+```
