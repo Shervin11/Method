@@ -79,3 +79,152 @@ let text = "  Привет, мир!  ";
 let trimmedText = text.trim();
 console.log(trimmedText); // "Привет, мир!"
 ```
+
+## Number Method in JavaScript.
+<details>
+    <summary>Math.floor( )</summary>
+<br>
+
+***The Math.floor() function rounds down a number to the next smallest integer.***
+<br>
+<br>
+
+
+let number = 43.6
+console.log(Math.floor(number)); // 43
+
+<br>
+</details>
+
+<details>
+<summary>Math.ceil( )</summary>
+<br>
+
+***Math.ceil() method rounds a decimal number up to the next largest integer and returns it.***
+
+<br>
+<br>
+
+
+let number = 43.6
+console.log(Math.ceil(number)) // 44
+
+<br>
+</details>
+
+<details>
+    <summary>Math.round( )</summary>
+<br>
+
+***The Math.round() function returns the number rounded to the nearest integer.*** 
+<br>
+
+
+let number = 43.6
+console.log(Math.round(number)) // 44
+
+ <br>
+
+</details>
+
+<details>
+    <summary>Math.abs( )</summary>
+<br>
+
+***abs() method finds the absolute value of the specified number (without any sign) and returns it.***
+<br>
+
+
+let number = -16
+console.log(Math.abs(number)) // 16
+
+<br>
+
+</details>
+
+<details>
+    <summary>Math.max( )</summary>
+<br>
+
+***max() method finds the maximum value among the specified values and returns it.***
+<br>
+
+
+let number = 1784329
+console.log(Matn.max(number)) // 9
+
+<br>
+
+</details>
+
+<details>
+    <summary>Math.min( )</summary>
+<br>
+
+***min() method finds the minimum value among the specified values and returns it.***
+<br>
+
+
+let number = 79871208
+console.log(Math.min(number)) // 1
+
+<br>
+
+</details>
+
+<details>
+    <summary>Math.pow( )</summary>
+<br>
+
+***pow() method computes the power of a number by raising the second argument to the power of the first argument.***
+<br>
+
+
+let num1 = 2
+let num2 = 3
+console.log(Math.pow(num1 , num2)) // 8
+
+<br>
+
+</details>
+
+<details>
+    <summary>Math.sqrt( )</summary>
+<br>
+
+***sqrt() method computes the square root of a specified number and returns it***
+<br>
+
+
+let number = 16
+console.log(Math.sqrt(number)) // 4
+
+<br>
+
+</details>
+
+<details>
+    <summary>Math.random( )</summary>
+<br>
+
+***random() function returns a floating-point, pseudo-random number between 0 (inclusive) and 1(exclusive).***
+<br>
+
+
+let numbers = Math.random( ) * 10
+console.log(numbers) // 3.3334545
+
+</details>
+
+<details>
+    <summary>isNaN( )</summary>
+<br>
+
+***isNaN() function checks if a value is NaN (Not-a-Number) or not***
+<br>
+
+
+console.log(isNaN( ) == 9999) // false
+console.log(isNaN( ) == "9999" ) // true
+
+</details>
