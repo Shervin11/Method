@@ -81,8 +81,7 @@ console.log(trimmedText); // "Привет, мир!"
 ```
 
 ## Number Method in JavaScript.
-<details>
-    <summary>Math.floor( )</summary>
+    <p>Math.floor( )</p>
 <br>
 
 ***The Math.floor() function rounds down a number to the next smallest integer.***
@@ -94,10 +93,9 @@ let number = 43.6
 console.log(Math.floor(number)); // 43
 
 <br>
-</details>
 
-<details>
-<summary>Math.ceil( )</summary>
+
+<p>Math.ceil( )</p>
 <br>
 
 ***Math.ceil() method rounds a decimal number up to the next largest integer and returns it.***
@@ -110,10 +108,9 @@ let number = 43.6
 console.log(Math.ceil(number)) // 44
 
 <br>
-</details>
 
-<details>
-    <summary>Math.round( )</summary>
+
+    <p>Math.round( )</p>
 <br>
 
 ***The Math.round() function returns the number rounded to the nearest integer.*** 
@@ -125,10 +122,9 @@ console.log(Math.round(number)) // 44
 
  <br>
 
-</details>
 
-<details>
-    <summary>Math.abs( )</summary>
+
+    <p>Math.abs( )</p>
 <br>
 
 ***abs() method finds the absolute value of the specified number (without any sign) and returns it.***
@@ -140,10 +136,9 @@ console.log(Math.abs(number)) // 16
 
 <br>
 
-</details>
 
-<details>
-    <summary>Math.max( )</summary>
+
+    <p>Math.max( )</p>
 <br>
 
 ***max() method finds the maximum value among the specified values and returns it.***
@@ -155,10 +150,9 @@ console.log(Matn.max(number)) // 9
 
 <br>
 
-</details>
 
-<details>
-    <summary>Math.min( )</summary>
+
+    <p>Math.min( )</p>
 <br>
 
 ***min() method finds the minimum value among the specified values and returns it.***
@@ -170,10 +164,9 @@ console.log(Math.min(number)) // 1
 
 <br>
 
-</details>
 
-<details>
-    <summary>Math.pow( )</summary>
+
+    <p>Math.pow( )</p>
 <br>
 
 ***pow() method computes the power of a number by raising the second argument to the power of the first argument.***
@@ -186,10 +179,9 @@ console.log(Math.pow(num1 , num2)) // 8
 
 <br>
 
-</details>
 
-<details>
-    <summary>Math.sqrt( )</summary>
+
+    <p>Math.sqrt( )</p>
 <br>
 
 ***sqrt() method computes the square root of a specified number and returns it***
@@ -201,10 +193,9 @@ console.log(Math.sqrt(number)) // 4
 
 <br>
 
-</details>
 
-<details>
-    <summary>Math.random( )</summary>
+
+    <p>Math.random( )</p>
 <br>
 
 ***random() function returns a floating-point, pseudo-random number between 0 (inclusive) and 1(exclusive).***
@@ -214,10 +205,9 @@ console.log(Math.sqrt(number)) // 4
 let numbers = Math.random( ) * 10
 console.log(numbers) // 3.3334545
 
-</details>
 
-<details>
-    <summary>isNaN( )</summary>
+
+    <p>isNaN( )</p>
 <br>
 
 ***isNaN() function checks if a value is NaN (Not-a-Number) or not***
@@ -226,5 +216,3 @@ console.log(numbers) // 3.3334545
 
 console.log(isNaN( ) == 9999) // false
 console.log(isNaN( ) == "9999" ) // true
-
-</details>
